@@ -20,23 +20,37 @@
 			<staticText>
 				<reportElement x="0" y="30" width="280" height="30" uuid="86ba8797-46c7-4d3d-b04e-912841e6deb5"/>
 				<textElement textAlignment="Center" verticalAlignment="Middle">
-					<font fontName="Times New Roman" isBold="true" pdfFontName="ZapfDingbats" isPdfEmbedded="false"/>
+					<font fontName="Times New Roman" isBold="true"/>
 				</textElement>
 				<text><![CDATA[Times new Roman Bold]]></text>
 			</staticText>
 			<staticText>
 				<reportElement x="0" y="60" width="280" height="30" uuid="4307a76f-43d3-43b8-b050-24c134f5184a"/>
 				<textElement textAlignment="Center" verticalAlignment="Middle">
-					<font fontName="Times New Roman"/>
+					<font fontName="Arial"/>
 				</textElement>
 				<text><![CDATA[Arial]]></text>
 			</staticText>
 			<staticText>
 				<reportElement x="0" y="90" width="280" height="30" uuid="7619b052-1a26-4f76-8103-cba5cc064809"/>
 				<textElement textAlignment="Center" verticalAlignment="Middle">
-					<font fontName="Times New Roman" isBold="true"/>
+					<font fontName="Arial" isBold="true"/>
 				</textElement>
 				<text><![CDATA[Arial Bold]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="280" y="0" width="264" height="30" uuid="c75cb4b0-6d52-4a84-99da-6d350efc09b7"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Comic Sans MS" isBold="false"/>
+				</textElement>
+				<text><![CDATA[Comic Sans MS]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="280" y="30" width="264" height="30" uuid="604b3382-0f88-4ee9-a081-99af65d7732c"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Comic Sans MS" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Comic Sans MS Bold]]></text>
 			</staticText>
 		</band>
 	</detail>
